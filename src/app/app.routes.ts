@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
+
 export const routes: Routes = [
   { path: '', component: HomeLinkComponent },
   { path: 'home', component: HomeLinkComponent },
@@ -16,6 +17,7 @@ export const routes: Routes = [
   { path: 'service', component: ServicesLinkComponent },
   { path: 'pricing', component: PricingLinkComponent },
   { path: 'contact', component: ContactLinkComponent },
+
   // ... autres chemins
 ];
 @NgModule({
