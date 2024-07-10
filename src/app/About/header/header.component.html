@@ -1,0 +1,67 @@
+  
+<div id="menu" > 
+  <nav class="navbar navbar-expand-lg trans-navigation" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img width="100" alt="logo" src="./assets/images/maftoul.svg" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fa fa-bars"></i>
+        </span>
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">{{"j"|translate}}</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" style="color: #c3001e" routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">{{"j.1"|translate}}</a> 
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll"  routerLink="/service" routerLinkActive="active" ariaCurrentWhenActive="page">{{"j.2"|translate}}</a> 
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll"  routerLink="/pricing" routerLinkActive="active" ariaCurrentWhenActive="page">{{"j.3"|translate}}</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll"  routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">{{"j.4"|translate}}</a> 
+          </li>
+          <li class="nav-item dropdown appear">
+            <a class="nav-link dropdown-toggle" href="#"
+              aria-haspopup="true" aria-expanded="false" id="lang-menu-phone" ><div class="justify-content-center" id="lottie-animation" style="width: 45px; height: 45px;"></div> </a>
+      
+            <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+              <li><a class="dropdown-item" (click)="changeLanguage('en')">{{"b.6"|translate}}</a></li>
+              <li><a class="dropdown-item" (click)="changeLanguage('fr')">{{"b.7"|translate}}</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="justify-content-center disappears">
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" id="lang-menu" name="lang-menu" aria-label="Language menu"><div id="lottie-animation2" style="width: 45px; height: 45px;"></div> </a>
+      
+            <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+              <li><a class="dropdown-item" (click)="changeLanguage('en')">{{"b.6"|translate}}</a></li>
+              <li><a class="dropdown-item" (click)="changeLanguage('fr')">{{"b.7"|translate}}</a></li>
+              <li><a class="dropdown-item" href="./registration/registration.component.html">Registration</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+  </div>
+<!--MAIN HEADER AREA END -->
+
+
+<!--MAIN HEADER AREA END -->

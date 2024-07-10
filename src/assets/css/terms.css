@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    font-family: SFmono-regular, Menlo;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.header h1 {
+    font-size: 28px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h4 {
+    color: #333;
+    margin:20px;
+}
+.container p{
+padding-left:20px;
+}
+.container ul {
+    list-style-type:disc;
+    padding-left: 20px;
+}
+
+.container ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+.bene{
+    font-size: 16px;
+    margin-left:40px;
+}
