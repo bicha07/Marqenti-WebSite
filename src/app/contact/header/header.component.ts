@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { TranslateLoader, TranslateModule, TranslateService, TranslatePipe } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 // La fonction HttpLoaderFactory pour la configuration du chemin des fichiers de traduction
 export function HttpLoaderFactory(http: HttpClient) {
@@ -13,7 +14,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [TranslateModule,],
+  imports: [TranslateModule,RouterOutlet,RouterLink, RouterLinkActive,],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
   providers: [
