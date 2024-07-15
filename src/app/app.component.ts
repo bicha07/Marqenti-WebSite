@@ -8,6 +8,7 @@ import { ServicesLinkComponent } from './Service/services-link/services-link.com
 import { PricingLinkComponent } from './Pricing/pricing-link/pricing-link.component';
 import { ContactLinkComponent } from './contact/contact-link/contact-link.component';
 import { RouterModule } from '@angular/router';
+import { PortfolioLinkComponent } from './Portfolio/portfolio-link/portfolio-link.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { RouterModule } from '@angular/router';
     ServicesLinkComponent,
     PricingLinkComponent,
     ContactLinkComponent,
+    PortfolioLinkComponent,
     // ... autres composants que vous pourriez utiliser
   ],
   templateUrl: './app.component.html',
