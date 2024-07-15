@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export function HttpLoaderFactory(http: HttpClient) {
@@ -8,7 +9,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule,RouterOutlet,RouterLink, RouterLinkActive,],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
   providers: [

@@ -13,11 +13,12 @@
     "b":"Home",
     "b.1":"About",
     "b.2":"Service",
-    "b.3":"Pricing",
-    "b.4":"Contact",
-    "b.5":"Registration",
-    "b.6":"English",
-    "b.7":"French",
+    "b.3":"Portfolio",
+    "b.4":"Pricing",
+    "b.5":"Contact",
+    "b.6":"Registration",
+    "b.7":"English",
+    "b.8":"French",
 
             "1.3":"home/about",
 
@@ -159,8 +160,9 @@
       "j":"Home",
       "j.1":"About",
       "j.2":"Services",
-      "j.3":"Pricing",
-      "j.4":"Contact",
+      "j.3":"Portfolio",
+      "j.4":"Pricing",
+      "j.5":"Contact",
 
 
                         "2.1":"about/banner",
@@ -251,8 +253,9 @@
         "v":"Home",
         "v.1":"About",
         "v.2":"Services",
-        "v.3":"Pricing",
-        "v.4":"Contact",
+        "v.3":"Portfolio",
+        "v.4":"Pricing",
+        "v.5":"Contact",
 
                         "3.5":"service/partners",
 

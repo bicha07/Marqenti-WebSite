@@ -5,7 +5,6 @@ import { AboutLinkComponent } from './About/about-link/about-link.component';
 import { ServicesLinkComponent } from './Service/services-link/services-link.component';
 import { PricingLinkComponent } from './Pricing/pricing-link/pricing-link.component';
 import { ContactLinkComponent } from './contact/contact-link/contact-link.component';
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PortfolioLinkComponent } from './Portfolio/portfolio-link/portfolio-link.component';

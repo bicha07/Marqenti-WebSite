@@ -11,5 +11,5 @@ import { FooterComponent } from '../../Home/footer/footer.component';
   styleUrl: './portfolio-link.component.css'
 })
 export class PortfolioLinkComponent {
-
+  
 }
